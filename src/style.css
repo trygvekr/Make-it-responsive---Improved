@@ -1,0 +1,116 @@
+*{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo
+{ 
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 45px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.calendarSection{
+
+    
+    
+    height: auto;
+    width: 100%;
+    
+    display: block;
+    
+    margin-top: 2%;
+}
+
+.navbar{
+    
+    color: white;
+    display: inline-block;
+    background-color: rgb(2,43,58);
+    width: 100%;
+}
+    
+.navItem
+{
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.navSector
+{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+.logoSector
+{
+    float: left; 
+    
+}
+
+.contentSection
+{
+    background-color: rgb(2,43,58);
+    color: white;
+    height: auto;
+    width: 100%;
+    
+    display: block;
+    
+    margin-top: 2%;
+   
+}
+.textSection
+{
+
+    display: block;
+    font-size:20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.imageSection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    padding: 10px;
+    height: 230px;
+    
+}
+
+a
+{
+    text-decoration: none;
+
+}
+
+a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+color: white;
+text-decoration: underline;
+
+}
